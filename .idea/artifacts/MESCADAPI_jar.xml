@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MESCADAPI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MESCADAPI_jar</output-path>
+    <root id="archive" name="MESCADAPI.jar">
+      <element id="module-output" name="MESCADAPI" />
+    </root>
+  </artifact>
+</component>

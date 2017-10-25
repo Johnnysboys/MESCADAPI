@@ -28,6 +28,7 @@ public abstract class AbstractMES extends UnicastRemoteObject implements IMESSer
             capacity-=orderINFO.getQuantity();
         }
     }
+
     private List<WrappedObserver> observers = new ArrayList<>();
 
     @Override

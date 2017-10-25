@@ -19,19 +19,19 @@ public interface IMESServer extends Remote{
      * @param o
      * @throws RemoteException
      */
-    void alertPlanted(OrderINFO o) throws RemoteException;
+    void alertPlanted(String orderID) throws RemoteException;
 
     /**
      * Alert discarded always signals that a single quantity has been lost in production.
      * @param o
      * @throws RemoteException
      */
-    void alertDiscarded(OrderINFO o) throws RemoteException;
+    void alertDiscarded(String orderID) throws RemoteException;
 
     /**
      * Alert harvest always signals that a single quantity has ben harvested.
      * @param o
      * @throws RemoteException
      */
-    void alertHarvest(OrderINFO o) throws RemoteException;
+    void alertHarvest(String orderID) throws RemoteException;
 }

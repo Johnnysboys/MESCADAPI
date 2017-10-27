@@ -6,4 +6,5 @@ import java.rmi.RemoteException;
 
 public interface ISCADAObserver extends Remote{
     void postOrder(OrderINFO o) throws RemoteException;
+    int getCapacity() throws RemoteException;
 }
